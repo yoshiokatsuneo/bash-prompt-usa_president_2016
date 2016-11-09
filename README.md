@@ -1,5 +1,4 @@
 # bash-prompt-usa_president_2016
-# vim-usa-president-2016
 
 Indicate USA President 2016 in Bash prompt
 
