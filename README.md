@@ -8,8 +8,6 @@ Inspired by: https://github.com/mattn/vim-usa_president_2016
 
 ## Usage
 
-set `usa_president_2016#status()` into you `statusline` like below.
-
 ```shell
 source ./bash-prompt-usa_president_2016
 ```
