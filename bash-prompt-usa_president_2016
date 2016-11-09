@@ -1,0 +1,1 @@
+PROMPT_COMMAND="curl -s http://elections.huffingtonpost.com/2016/results/president.json | ruby -r json -e 'p=JSON.parse(STDIN.read)[%(summaries)][%(president)];print %(Clinton(#{p[%(nClintonElectoralVotes)]}) vs Trump(#{p[%(nTrumpElectoralVotes)]}))' "
